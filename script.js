@@ -1,20 +1,48 @@
-const gernerateQuote = function (){
+const generateQuote = function() {
     const quotes = [
-        {
-            quote: “HAVING CHILDREN IS LIKE LIVING IN A FRAT HOUSE. NOBODY SLEEPS, EVERYTHING’S BROKEN AND THERE’S A LOT OF THROWING UP.”
-            author: "RAY ROMANO"
-        },
-        {
-            quote: “MEN SHOULD ALWAYS CHANGE DIAPERS. IT’S A VERY REWARDING EXPERIENCE. IT’S MENTALLY CLEANSING. IT’S LIKE WASHING DISHES, BUT IMAGINE IF THE DISHES WERE YOUR KIDS, SO YOU REALLY LOVE THE DISHES.”
-            author: "CHRIS MARTIN"
-        },
-        {
-            quote: “BUYING YOUR KID A GOLDFISH IS A GREAT WAY TO TEACH THEM ABOUT RESPONSIBILITY FOR 24—36 HOURS.” 
-            author: "CONAN O’BRIEN"
-        },
-        {
-            quote: “A FATHER CARRIES PICTURES WHERE HIS MONEY USED TO BE.”
-            author: "STEVE MARTIN"
-        }
-    ]
+    {
+        quote: "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
+        author: "Albus Dumbledore"
+    },
+    {
+        quote: "It is impossible to manufacture or imitate love",
+        author: "Horace Slughorn"
+    },
+    {
+        quote: "Being different isn't a bad thing. I mean that you are brave enough to be yourself.",
+        author: "Luna Lovegood"
+    },
+    {
+        quote: "If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.",
+        author: "Sirius Black"
+    },
+    {
+        quote: "Never trust anything that can think for itself if you can’t see where it keeps its brain.",
+        author: "Arthur Weasley"
+    },
+    {
+        quote: "Every human life is worth the same, and worth saving.",
+        author: "Kingsley Shacklebolt"
+    },
+    {
+        quote: "Have a biscuit, Potter.",
+        author: "Minerva McGonagall"
+    },
+    {
+        quote: "Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
+        author: "Albus Dumbledore"
+    },
+    {
+        quote: "Socks are Dobby’s favorite, favorite clothes, sir!",
+        author: "Dobby"
+    }
+];
+console.log("Hi");
 }
+window.onload = function() {
+    generateQuote();
+ }
+
+ //Syntax : arrayVariableName[index]
+console.log(quotes[3].quote); // If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.
+console.log(quotes[3].author); // Sirius Black
