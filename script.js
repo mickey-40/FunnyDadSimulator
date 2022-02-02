@@ -1,3 +1,4 @@
+//Final JavaScript
 const generateQuote = function() {
     const quotes = [
     {
@@ -9,7 +10,7 @@ const generateQuote = function() {
         author: "Horace Slughorn"
     },
     {
-        quote: "Being different isn't a bad thing. I mean that you are brave enough to be yourself.",
+        quote: "Being different isn't a bad thing. I means that you are brave enough to be yourself.",
         author: "Luna Lovegood"
     },
     {
@@ -29,7 +30,7 @@ const generateQuote = function() {
         author: "Minerva McGonagall"
     },
     {
-        quote: "Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
+        quote: "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
         author: "Albus Dumbledore"
     },
     {
@@ -37,12 +38,13 @@ const generateQuote = function() {
         author: "Dobby"
     }
 ];
-console.log("Hi");
+
+    let arrayIndex = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quotes").innerHTML = quotes[arrayIndex].quote;
+    document.getElementById("author").innerHTML = quotes[arrayIndex].author;
+
 }
 window.onload = function() {
     generateQuote();
- }
-
- //Syntax : arrayVariableName[index]
-console.log(quotes[3].quote); // If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.
-console.log(quotes[3].author); // Sirius Black
+    document.getElementById("generate").addEventListener('click', generateQuote);
+}
