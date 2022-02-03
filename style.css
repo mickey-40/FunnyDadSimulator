@@ -1,0 +1,15 @@
+* {
+    background-color: antiquewhite;
+}
+h1, p {
+    text-align: center;
+}
+
+button {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+    margin: auto;
+}

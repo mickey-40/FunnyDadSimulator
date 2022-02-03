@@ -2,46 +2,37 @@
 const generateQuote = function() {
     const quotes = [
     {
-        quote: "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
-        author: "Albus Dumbledore"
+        quote: "Raising kids is the only job where you work 24 hours a day and it actually costs you money."
     },
     {
-        quote: "It is impossible to manufacture or imitate love",
-        author: "Horace Slughorn"
+        quote: "Being a dad at bedtime is like being a designated driver trying to get your friends to leave the bar."
     },
     {
-        quote: "Being different isn't a bad thing. I means that you are brave enough to be yourself.",
-        author: "Luna Lovegood"
+        quote: "Dad: Spider-killing superhero."
     },
     {
-        quote: "If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.",
-        author: "Sirius Black"
+        quote: "My kids always ask me which one of them is my favorite. I don't tell them I don't actually like any of them."
     },
     {
-        quote: "Never trust anything that can think for itself if you can’t see where it keeps its brain.",
-        author: "Arthur Weasley"
+        quote: "No one wants to see Dad dance, but he does it anyway."
     },
     {
-        quote: "Every human life is worth the same, and worth saving.",
-        author: "Kingsley Shacklebolt"
+        quote: "Being a dad is when you realize you can actually like people who puke in your car multiple times."
     },
     {
-        quote: "Have a biscuit, Potter.",
-        author: "Minerva McGonagall"
+        quote: "Fatherhood is all about pretending neck ties are the best gifts you ever received."
     },
     {
-        quote: "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
-        author: "Albus Dumbledore"
+        quote: "For the first two years, being a good dad is mostly about keeping your kid from finding new and creative ways to hurt himself."
     },
     {
-        quote: "Socks are Dobby’s favorite, favorite clothes, sir!",
-        author: "Dobby"
+        quote: "When your kids are toddlers, they'll embarrass you constantly in the grocery store, at the doctor's office, at the park, everywhere. When they're teenagers, it's Dad's turn to pay them back."
     }
 ];
 
     let arrayIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById("quotes").innerHTML = quotes[arrayIndex].quote;
-    document.getElementById("author").innerHTML = quotes[arrayIndex].author;
+    
 
 }
 window.onload = function() {
